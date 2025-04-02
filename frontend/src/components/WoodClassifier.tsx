@@ -151,7 +151,7 @@ const StampedePrediction = () => {
                         >
                             <X className="w-6 h-6" />
                         </button>
-                        {/* <h3 className="text-2xl font-semibold text-red-400 mb-4">Analysis Result</h3>
+                       {/*}    <h3 className="text-2xl font-semibold text-red-400 mb-4">Analysis Result</h3>
                         <div className="bg-red-900/30 rounded-lg border border-red-800 p-6">
                             <p className="text-red-300 text-lg mb-4">
                                 High risk of stampede detected!
@@ -162,17 +162,19 @@ const StampedePrediction = () => {
                                 <li>Open additional exit routes</li>
                                 <li>Deploy security personnel to high-density areas</li>
                             </ul>
-                        </div> */}
-                        <h3 className="text-2xl font-semibold text-red-400 mb-4">Analysis Result</h3>
+                        </div>  */}
+                      <h3 className="text-2xl font-semibold text-red-400 mb-4">Analysis Result</h3>
                         <div className="bg-yellow-900/30 rounded-lg border border-yellow-800 p-6">
                             <p className="text-yellow-300 text-lg mb-4">
                                 Low risk of stampede detected!
                             </p>
                             <p className="text-gray-200 font-medium mb-2">Recommended actions:</p>
                             <ul className="list-disc ml-4 space-y-2 text-gray-300">
-                                <li>Implement crowd control measures</li>
-                                <li>Open additional exit routes</li>
-                                <li>Deploy security personnel to high-density areas</li>
+                               <li>Monitor crowd density periodically</li>  
+                                <li>Maintain clear pathways and signage</li>  
+                                <li>Deploy security personnel for routine surveillance</li>  
+                                <li>Use public announcements to guide crowd movement</li>  
+                                <li>Ensure emergency exits remain accessible</li>  
                             </ul>
                         </div>
                         <button

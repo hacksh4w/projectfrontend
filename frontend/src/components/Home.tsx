@@ -77,9 +77,9 @@ const LandingPage = () => {
 
   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
     {[
-      { step: "Upload", img: uploadImg, text: "Choose a clear image of the wood sample." },
-      { step: "Analyze", img: analysisImg, text: "Our AI model processes the image and extracts features." },
-      { step: "Results", img: resultImg, text: "View detailed species classification and age estimation." }
+      { step: "Upload", img: uploadImg, text: "Choose the best footage overlooking crowd/risk areas." },
+      { step: "Analyze", img: analysisImg, text: "Our Hybrid DL model processes the video." },
+      { step: "Results", img: resultImg, text: "Analysis of the video and Stampede Risk Assessment displayed." }
     ].map((item, index) => (
       <div key={index} className="bg-white rounded-xl shadow-md p-10 flex flex-col items-center hover:shadow-lg transition-shadow">
         <div className="flex items-center justify-center w-20 h-20 rounded-full bg-irange-100 mb-8">
